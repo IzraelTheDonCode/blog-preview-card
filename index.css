@@ -1,0 +1,62 @@
+@font-face {
+    font-family: don;
+    src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+body {
+    background-color:hsl(47, 88%, 63%) ;
+    font-family: don;
+}
+
+#container{
+    height: auto;
+    width: 250px;
+    border: 2px solid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px;
+    margin: 50px auto
+        
+}
+
+.illustration-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.illustration-1 {
+    height: 20px;
+    width: 80px;
+    border: 2px solid none;
+    background-color:hsl(47, 88%, 63%) ;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.illustration-2 {
+    font-weight: 800;
+}
+.illustration-3 {
+    color:hsl(0, 0%, 42%) ;
+}
+
+.illustration-4 {
+    font-size: 12px;
+}
+
+img{
+    width: 40px;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
